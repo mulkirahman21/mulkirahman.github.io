@@ -1,0 +1,7 @@
+body	{
+	background: skyblue url(foto/bg.png) no-repeat top center;
+	}
+p{
+	font-size: 50px;
+	text-align:center;
+}

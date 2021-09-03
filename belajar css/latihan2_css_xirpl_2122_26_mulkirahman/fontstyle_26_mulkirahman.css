@@ -1,0 +1,17 @@
+h1	{
+	font-family: arial, verdana, sans-serif;
+	font-size: 100px;
+	font-weight: normal;
+	font-variant: small-caps;
+	font-style: italic;
+ }
+	/* contoh shorthand 
+
+	h1 {
+	font: italic normal bold 16px/18px hevetica,arial, sans-serif;
+	} */
+
+p {
+	font-family: georgia, serif;
+	line-height: 50px;
+}

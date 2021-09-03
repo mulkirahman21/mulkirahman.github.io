@@ -1,0 +1,10 @@
+body {
+	background-image: url(gambar/gradient-y.png);
+	background-repeat: repeat-y;
+
+	/*  contoh shorthand 
+	urutan: 
+	backgorund: color url() position repeat; */
+
+
+}

@@ -1,0 +1,60 @@
+/*!
+ * css layouting card
+ * nama lengkap pembuat: Mulki Rahman
+ * dilarang copy-paste tugas milik teman, hak cipta dilindungi
+ */
+body{
+margin: ;
+}
+
+h5{
+	font-size: 25px ;
+	background: #1e84b0;
+	text-align: center ;
+}
+
+#container{
+	display: inline-block ;
+	width:100% ;
+	background: #1d1c3d ;
+	overflow: auto;		
+}
+
+#content1{
+	display: ;
+	width: 90% ;
+	background: #7db01e ;
+	margin:50px 70px 30px;				
+}
+
+.card{
+	width:300px;
+	margin: -30px 30px 100px 50px;
+	display: inline-grid ;
+	overflow: auto ;		
+	background:   ;
+}
+
+.card .card-img{
+	width: 300px;
+	height: 100px;
+}
+.card .card-judul{
+	font-weight:400px ;
+	font-size: 20px;
+	display: inline-block;
+	height: ;
+	width: 100%;
+	background: black;
+	color: white ;
+	margin:-10px 0px -10px 0px;
+}
+
+.card .card-isi{
+	font-weight: 400px ;
+	font-size:15px ;
+	display: inline-block ;
+	height: ;
+	margin: 15px 2px 15px 0px ;
+	background:  ;
+}

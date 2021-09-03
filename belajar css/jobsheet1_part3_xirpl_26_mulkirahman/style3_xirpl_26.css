@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body {
+	font:16px/28px  arial,sans-serif;
+	background-color: #eaeaea;
+	background-image: url(img/gravel.png);
+	color: #333;	
+}
+
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: blue;
+	z-index: 9999;
+	border-bottom: 5px solid black;
+	text-align:center ;
+	padding-top: 10px;
+}
+
+
+
+.container {
+	width: 960px;
+	margin: 80px auto;
+	background-color: #fff;
+	position: relative;
+	border-top: 15px solid #333;
+	
+
+}
+
+.instagram {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/ig_r.png);
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0px ;
+	right:0px ;
+	background-size: cover;
+
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 450px;
+	background-image: url(img/gambar.png);
+	background-size: cover;
+	background-position: 0 -110px;
+	border-top: 5px solid darkred;
+	border-bottom:5px solid darkred;
+
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+	background-color: #000;
+	margin: 10px;
+	opacity: 0.75;
+	
+}
+
+.main h2 { 
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+	background-color: darkblue;
+	padding: 7px;
+
+}
+
+.main .penulis {
+	font-size: 13px;
+	margin-top: -5px;
+	background-color: darkblue;
+	padding: 7px;
+	margin-top: -15px;
+}
+
+.main .penulis a{
+	text-decoration: none;
+	font-weight: bold;
+	color: lightgreen;
+	font-size: 12px;
+}
+
+.main .penulis a:hover {
+	background-color:blue;
+	color: salmon;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-align: justify;
+	color: #fff ;
+
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	background-color: darksalmon;
+	padding: 5px;
+}
+
+.sidebar img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font-size: 14px ;
+	line-height: 18px;
+	font-family: time now roman;
+	text-align: justify;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+}
+
+.fotter {
+	background-color: #333;
+	padding: 10px;
+}
+
+.fotter .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 11px;
+}
+
+
+/* Clear Fix */ 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
